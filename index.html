@@ -1,131 +1,148 @@
 <!DOCTYPE html>
-
-<html lang="en-us">
-  <head> 
-    
+<html lang="en">
+<head>
 <meta charset="utf-8">
-    <meta name="viewport"content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Claire Davis-Chambers">
-   
-<title>Pet Care Clinic</title>
-    <!--bootstrap css layout-->
-     <link rel="stylesheet"href="https:maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-    //<!--WelcomeMessage-->//
-    function showAlert()
-                       {
-    alert ("Welcome to Pet Care Clinic");
-                       }
-       $(document).ready(function()
-                       {
-     $("button").click(function()
-                       {
-  $("p").css("background-color", "yellow");
+  <meta http-equiv="X-UA-compatible" content ie="EmulateIE8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1-0">
+ <title>Pet Care Clinic</title>
+  <link rel="stylesheet" type="text/css" href="myown.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!--jquery for bootsraps plugins-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<!--Show a Welcome message to the user -->
+<script type="text/javascript">
+function showAlert()
+{
+alert ("Welcome to our Site");
+}
+</script>
+<!--
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").css("background-color", "yellow");
     });
-    });
-    </script>
-  </head>
-  <body>
-      <div class="overlay-content">
-      </div>
-      <!--bootstrap container divided into three sections-->
-      <div class= "container" style = "background-color:lightgray/transparent/initial;">
-      <div class=" container-fluid">
-        <div class="row">
-          <div class ="col-sm-2" style ="background-color:light-gray;">
-            <img src="logom.png" alt="logom.png" align ="auto" width="175" height="100">
-            </div>
-          
+});-->
+<!---->
+
+<body>
+<div class="overlay-content" >
+</div>
+</div>
+
+<div class = "container" style  = "background-color: white/transparent/initial;
+
+<!--Create Bootstrap Row wth 3 columns-->
+<div class="container-fluid">
+<div class ="row" style = "background-color:white;" height ="110" ;> 
+
+<div class="col-sm-2" style = "background-color:white;">
+   <a href="home.html"  onmouseover="alert('Click To Go To Home')"><img src="images\logom.png"  alt="images\logom.png" align = "auto" width="175" height=" 100"></a>
+    </div>
+ 
+
+  <div class="col-sm-4" style="background-color:white;">
+ <h1 style="color:purple;margin-left:30px; text-align:center;">Pet Care Clinic</h1>
+  <div class="well well-sm" "color:transparent;" ></div>
+    </div>
+ 
+     <div class="col-sm-6" style="background-color:black; height= " 100; ">
+ <!--Create Navigation Panel-->
+<ul class ="nav nav-pills" role="tablist">
+    <li class="active"><a href="http://www.facebook.com/Pet Rescue Centre" target="_blank" title="Facebook"><img src="images/facebook1.png" class="first-r"/></a></li>
+<li><a href="http://www.twitter.com/Pet Rescue Centre" target="_blank" title="Twitter"><img src="images/twitter1.png" class="second-r" /></a></li>
+<li><a href="http://www.youtube.com/Pet Rescue Centre" target="_blank" title="YouTube"><img src="images/youtube.png" alt="images/youtube.png" class="third-r"/></a></li>
+<li><a href="mailto:animals2rescue1@gmail.com?Subject=Please%20ThankYou" target="_blank" title="Email"><img src="images/mail.png" alt="images/mail.png" class="fourth-r"/></a></li>
+  </ul>
+</div>
+<p></p>
+
+<div class="overlay-content" >
+</div>
+</div>
+
+  <div class="container-fluid">
+  <div class ="row">
+  <div class ="col-sm-12" style = "background-color:black;"   >
+  <p></p>
   
-          <div class="col-sm-2-4"  style="background-color:black;height="100;>
-            
-            <ul class="nav nav-pills role="tablist>
-              <li class="active"><a href="http://facebook.com/Pet Care Clinic" target="blank" title="Facebook">
-                <img src="facebook1.png" class="first-r"/></a></li>
-              
-              <li><a href="http://www.twitter.com/Pet Care Clinic" target="_blank" title="Twitter">
-                <img src="twitter1.png" class="second-r"/></a></li>
-                                                                          
-              <li><a href="http://www.youtube.com/Pet Care Clinic" target="blank" title="YouTube">
-                <img src="youtube.png" class="third-r"/></a></li>
-              
-              <li><a href="mailto:animals2rescue1@gmail.com?Subject=Please%20ThankYou" target="_blank" title="Email">
-                <img src="mail.png" alt="mail.png" class="fourth-r"/></a><li>
-            </ul>
-        </div>
-        </div>
-        <p></p>
-        
-                                                                              
-  <div class="overlay-content">
-        </div>
-        </div>
-        
-        <div class="container-fluid">
-          <div class ="row">
-            <div class ="col-sm-12" style = "background-color:black;">
-              <p></p>
-              
-              <ul class="nav nav-pills nav-justified">
-                <li class="active"><a href="coverpage.html">ABOUT US</a></li>
-                <li class="dropdown"> 
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">GALLERY
-                    <span class="caret"></span></a>
-                  <ul class="dropdown-menu"><li><a href="petgallery.html"></a></li>
-                    <li><a href="cats.html">CATS</a></li>
-                    <li><a href="dogs.html">DOGS</a></li>
-                  </ul>  </li><li><a href="#">ADOPTION</a></li>
-                <li><a href="#">PET ADVICE</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <li><a href="apimap.html">FIND US</a></li>
-              </ul></div></div><p></p><div class="container-fluid">
-          <div class="row"> 
-            <div class="col-sm-3" style="background-color:lavender;">
-              <!--About column what we do history blabla -->
-              <h3>What We Do</h3>
-              <h4> <a href="#">HISTORY</a></h4>
-              <h4> <a href="#">VISION</a></h4>
-              <h4> <a href="#">ANIMAL WELFARE</a></h4>
-              <h4> <a href="#">VETERINARY</a></h4>
-              <h4> <a href="#">PEOPLE</a></h4>
-              <h4> <a href="#">TRUSTEE</a></h4>
-              <p>WE ARE A REGISTERED CHARITY</p>
-              <p>BECOME A VOLUNTEER...</p>
-            </div>
-            
-            <div class="col-sm-6"style = "background-color:white;">
-              <!--image of cat and links -->
-              <h3>Animal Rescue Centre</h3>            
-              <ul class="nav nav-pills red">
-                <li class="active">
-                  <a href="#tab1" data-toggle="tab">Overview</a></li>
-                <li><a href="#tab2" data-toggle="tab">News</a></li>
-                <li><a href="#tab3" data-toggle="tab">Pet Life</a></li>
-                <li><a href="#tab2" data-toggle="tab">Vaccinations</a></li>
-                <li><a href="#tab3" data-toggle="tab">Emergency Care</a></li>
-              </ul>
-            </div>
-            
-              <h3>Pets Seeking Homes<h3>
-              <p>sdsfdfgfhhkjlkl;;';kghfghdfgsdfasdgfhghjklkl;l';jkgfgfdgsdfsadASadASdfg\sdfhcgkl;/l;'L:K'/j;#'l#</p>
-              <img src="images\major.jpg" alt="major.jpg" style="width:304px;height:228px;">  
-                <p>sianskansanskanskanskanskasnanskansknkansnaksnnskn</p>
-                <p>ksasasjkaksjalsjalsjaljslajslasjalslajs</p>
-                
-              <h4>Sign Up!!! Become Member!!</h4>
-              <p>details about the rescue centre</p>
-              <p>sjsdjkfnkfnksnfksnfksnfksnfksnfksnfknsfknskfnsknfks
-             
-                <div class="col-sm-3" style = "background-color:lime;">
-               <!--News and events --newsletter-->
-                  <h3>News and Events</h3>
-                  <p>youtube video link</p>
-                  <p>latest pet news</p>
-                </div>
-                  <div class="overlay-content" >
-                </div>
-               
-                </body>
-            </html>
+  <ul class="nav nav-pills nav-justified" >
+    <li class="active"><a href="coverpage.html">ABOUT US</a></li>
+    <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">GALLERY
+    <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+    <li><a href="petgallery.html"></a></li>
+    <li><a href="cats.html">CATS</a></li>
+    <li><a href="dogs.html">DOGS</a></li>
+  </ul>
+  </li>
+<li><a href="#">ADOPTION</a></li>
+  <li><a href="#">PET ADVICE</a></li>
+  <li><a href="#">CONTACT</a></li>
+  <li><a href="apimap.html">FIND US</a></li>
+  </ul>
+</div>
+</div>
+
+<p></p>
+
+<div class="container-fluid" >
+  <div class="row">
+    <div class="col-sm-3" style="background-color:lavender;">
+    
+  <!--About column what we do history blabla -->  
+ 
+      <h3>What We Do</h3>
+      <h4> <a href="#">HISTORY</a></h4>
+      <h4> <a href="#">VISION</a></h4>
+      <h4> <a href="#">ANIMAL WELFARE</a></h4>
+      <h4> <a href="#">VETERINARY</a></h4>
+      <h4> <a href="#">PEOPLE</a></h4>
+      <h4> <a href="#">TRUSTEE</a></h4>
+      <p>WE ARE A REGISTERED CHARITY</p>
+      <p>BECOME A VOLUNTEER...</p>
+    </div>
+    
+    <div class="col-sm-6"style = "background-color:white;">
+    <!--image of cat and links -->
+      <h3>Animal Rescue Centre</h3>
+</style>
+
+      
+      <ul class="nav nav-pills red">
+    <li class="active"><a href="#tab1" data-toggle="tab">Overview</a></li>
+    <li><a href="#tab2" data-toggle="tab">News</a></li>
+    <li><a href="#tab3" data-toggle="tab">Pet Life</a></li>
+    <li><a href="#tab2" data-toggle="tab">Vaccinations</a></li>
+    <li><a href="#tab3" data-toggle="tab">Emergency Care</a></li>
+</ul
+
+<h3>Pets Seeking Homes sdsfdfgfhhkjlkl;;';kghfghdfgsdfasdgfhghjklkl;l';jkgfgfdgsdfsadASadASdfg\sdfhcgkl;/l;'L:K'/j;#'l#'</h3>
+<img src="images\major.jpg" alt="major.jpg" style="width:304px;height:228px;">
+
+  <p>sianskansanskanskanskanskasnanskansknkansnaksnnskn
+  <p>ksasasjkaksjalsjalsjaljslajslasjalslajs
+  <h4>Sign Up!!! Become Member!!</h4>
+      <p>details about the rescue centre</p>
+      <p>sjsdjkfnkfnksnfksnfksnfksnfksnfksnfknsfknskfnsknfksn
+    </div
+
+<div class="col-sm-3" style = "background-color:lime;">
+    
+    <!--News and events --newsletter-->
+      <h3>News and Events</h3>        
+      <p>youtube video link</p>
+      <p>latest pet news</p>
+  </div> 
+</div>
+
+  <div class="overlay-content" >
+</div>
+</div>
+
+
+</body>
+</html>
